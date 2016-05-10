@@ -9,8 +9,16 @@ It sorts the first player's champions by number of champion points obtained desc
 ## Site Features
 
 * Easy input of players.
+
+![Alt Text](https://github.com/mancarv/ChampVersus/blob/master/imagesReadme/cap1.png)
+
 * Resumed best stats.
+
+![Alt Text](https://github.com/mancarv/ChampVersus/blob/master/imagesReadme/cap2.png)
+
 * List all champions from players side by side.
+
+![Alt Text](https://github.com/mancarv/ChampVersus/blob/master/imagesReadme/cap3.png)
 
 ## Technical Details
 
