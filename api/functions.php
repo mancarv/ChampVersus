@@ -1,6 +1,6 @@
 <?php
 
-$api_key = "api_key=c6a8c627-d3ea-4b9a-a7d5-5640d94e79ab";
+$api_key=<your-key>
 
 function getPlatformId($region)
 {
