@@ -1,0 +1,196 @@
+<html>
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<title>ChampVersus</title>
+	
+	<!-- CORE CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/theme.min.css" rel="stylesheet">
+	<link href="css/theme2.min.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    
+</head>
+<body class="fixed-header">
+	
+    
+    
+	<!-- wrapper --> 
+	<div id="wrapper">
+        
+        <div class="nav-menu" style="position">
+            <a href="index.html">Home</a>
+            <a>About Us</a>
+            <span>Champion Mastery</span>
+        </div>
+        
+		<div id="full-carousel" class="ken-burns carousel slide full-carousel carousel-fade" data-ride="carousel">
+			<ol class="carousel-indicators" style="display:none;">
+				<li data-target="#full-carousel" data-slide-to="0" class=""></li>
+				<li data-target="#full-carousel" data-slide-to="1" class=""></li>
+				<li data-target="#full-carousel" data-slide-to="2" class="active"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item" style="height: 334px;">
+					<img src="img/lol1.jpg" alt="">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1 data-animation="animated animate1 bounceInDown" class="">Compare your stats with friends</h1>
+							<p data-animation="animated animate7 fadeInUp" class="">Know who is the best player in your friendlist, who masters more champions.</p>
+						</div>		
+					</div>
+				</div>
+				
+				<div class="item" style="height: 334px;">
+					<img src="img/lol2.jpg" alt="">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1 data-animation="animated animate1 fadeInDown" class="">Compare the statistics of professional players</h1>
+							<p data-animation="animated animate7 fadeIn" class="">You would be able to challenge summoners from different regions and know their stats.</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="item active" style="height: 334px;">
+					<img src="img/lol3.jpg" alt="">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1 data-animation="animated animate1 fadeIn" class="">Know your own statistics with each champion.</h1>
+							<p data-animation="animated animate7 fadeIn" class="">Observe your own califications from every champion you have played.</p>
+						</div>
+					</div>
+				</div>
+							
+				<a class="left carousel-control" href="#full-carousel" data-slide="prev" style="display:none;">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				</a>
+				<a id="nextImageCar" class="right carousel-control" href="#full-carousel" data-slide="next" style="display:none;">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				</a>
+			</div>
+            <div class="btn-send">
+                <div class="form-group" style="margin-bottom: 0px;width: auto;margin-left: 8px;">
+                     <ul class="pagination pagination-sm mt-0" id="list_sup" style="margin-bottom:0px;">
+                        <li class="region-sd" id="region_na" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">NA</a>
+                        </li>
+                        <li class="region-sd" id="region_lan" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">LAN</a>
+                        </li>
+                        <li class="region-sd" id="region_las" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">LAS</a>
+                        </li>
+                        <li class="region-sd" id="region_br" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">BR</a>
+                        </li>
+						<li class="region-sd" id="region_euw" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">EUW</a>
+                        </li>
+                        <li class="region-sd" id="region_eune" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">EUNE</a>
+                        </li>
+                        <li class="region-sd" id="region_kr" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">KR</a>
+                        </li>
+                        <li class="region-sd" id="region_ru" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">RU</a>
+                        </li>
+                        <li class="region-sd" id="region_oce" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">OCE</a>
+                        </li>
+                        <li class="region-sd" id="region_tr" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">TR</a>
+                        </li>
+                        <li class="region-sd" id="region_jp" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">JP</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="youplay-input">
+                  <input type="text" name="s" id="messages_search" placeholder="Summoner Name">
+                </div>
+                <div class="form-group" style="margin-bottom: 0px;width: auto;margin-left: 8px;">
+                    <ul class="pagination pagination-sm mt-0" id="list_inf" style="margin-bottom:0px;">
+                        <li class="region-sd" id="region_na2" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">NA</a>
+                        </li>
+                        <li class="region-sd" id="region_lan2" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">LAN</a>
+                        </li>
+                        <li class="region-sd" id="region_las2" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">LAS</a>
+                        </li>
+                        <li class="region-sd" id="region_br2" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">BR</a>
+                        </li>
+						<li class="region-sd" id="region_euw2" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">EUW</a>
+                        </li>
+                        <li class="region-sd" id="region_eune2" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">EUNE</a>
+                        </li>
+                        <li class="region-sd" id="region_kr2" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">KR</a>
+                        </li>
+                        <li class="region-sd" id="region_ru2" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">RU</a>
+                        </li>
+                        <li class="region-sd" id="region_oce2" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">OCE</a>
+                        </li>
+                        <li class="region-sd" id="region_tr2" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">TR</a>
+                        </li>
+                        <li class="region-sd" id="region_jp2" onclick="change_Class(this.id)">
+                          <a class="region-sd" href="#">JP</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="youplay-input">
+                  <input type="text" name="s" id="messages_search2" placeholder="Summoner Name">
+                </div>
+                <a href="#signin" data-toggle="modal" class="btn btn-lg" id="button_login" data-animation="animated animate10 fadeIn" style="width: 366px;">Start Match</a>
+                <div class="footer-copy">
+                    <div>CHAMPVERSUS</div>
+                    <div>RIOT GAME API CHALLENGE</div>
+                    <div>LEAGUE OF LEGENDS</div>
+                    <div></div>
+                </div>
+            </div>
+		</div>
+	</div>
+	<!-- /#wrapper -->
+	
+	<!-- Javascript -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/core.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+    <script src="js/functions.js"></script>
+	<script>
+	(function($) {
+	"use strict";
+		var owl = $(".owl-carousel");
+			 
+		owl.owlCarousel({
+			items : 3, //4 items above 1000px browser width
+			itemsDesktop : [1000,3], //3 items between 1000px and 0
+			itemsTablet: [600,1], //1 items between 600 and 0
+			itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+		});
+        
+        function nextImage(){
+            $('#nextImageCar').click();
+			return false;
+        }
+        setInterval(nextImage, 10000);
+	})(jQuery);
+	</script>
+
+</body>
+</html>
